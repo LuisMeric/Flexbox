@@ -32,6 +32,7 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
+    gap: 20px;
 }
 
 .contact-user img {
@@ -46,6 +47,9 @@
 .description {
 
     line-height: 0.3;
+    padding-top: 20px;
+
+
     
     
 }
@@ -72,10 +76,11 @@
 
     display: flex;
     border-bottom: solid 1px;
-    padding: 10px;
-    align-items: flex-start;
+    padding-left: 10px;
+    padding-right: 30px;
+    
     gap: 20px;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     
     
     
@@ -140,6 +145,19 @@
     font-family: 'Roboto', sans-serif;
     font-weight: lighter;
 }
+
+.icons {
+
+    display: flex;
+    gap: 20px; 
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+
+    
+
+
 
 
 
